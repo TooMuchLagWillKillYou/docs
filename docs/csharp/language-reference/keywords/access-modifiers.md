@@ -24,7 +24,8 @@ Access modifiers are keywords used to specify the declared accessibility of a me
 - [`private`](private.md): Access is limited to the containing type.
 - [`private protected`](private-protected.md): Access is limited to the containing class or types derived from the containing class within the current assembly.
 - [`file`](file.md): The declared type is only visible in the current source file. File scoped types are generally used for source generators.
-
+- [`sealed`](sealed.md): Prevents other classes from inheriting from it.
+- 
  This section also introduces the following concepts:
 
 - [Accessibility Levels](./accessibility-levels.md): Using the four access modifiers to declare six levels of accessibility.
